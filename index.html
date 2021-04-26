@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles1.css/style.css">
+    
+    <title>Proyecto Ricardo</title>
+</head>
+<body>
+    <!--Proyecto del modulo de JavaScript Fundamentals BEDU-->
+    <div class="contenedorTemp">
+        <div class="tempActual">
+            <p id="tempCiudad"></p>
+        </div>
+        <div class="calculadoraTemp">
+            <div class="rowTemp">
+                <div class="grid grid-content">
+                    <input type="number" name="farenheit" id="farenheit" class="inputBox" value="32">
+                    <label for="farenheit">Farenheit</label>
+                </div>
+                <div class="grid grid-equals padding text-center"><span class="font-big"> = </span></div>
+                <div class="grid grid-content">
+                    <input type="number" name="celcius" id="celcius" class="inputBox" value="0">
+                    <label for="celcius">Celcius</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>Buscador de Repositorios de Github</h1>
+    <form class="busquedaGitHub">
+        <input type="text" id="inputBusqueda">
+        <button type="submit" id="buttonBusqueda">Buscar</button>
+    </form>
+    <div class="tableSearch">
+        <table>
+            <div class="header_table_search">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody id="tableData">
+
+                </tbody>
+            </div>
+            
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

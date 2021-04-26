@@ -1,0 +1,12 @@
+.inputBox {
+    border: none;
+    background: linear-gradient(90deg, #222, #222) left bottom/100% 2px no-repeat,
+                linear-gradient(90deg, #ccc, #ccc) left bottom/100% 2px no-repeat,
+                linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+
+}
+
+.inputBox input:focus {
+    background-size: 100% 2px, 100% 2px, 100%;
+}
